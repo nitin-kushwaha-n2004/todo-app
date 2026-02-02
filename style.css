@@ -1,0 +1,105 @@
+/* Full page center */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Box styling */
+
+.container {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Heading */
+
+.container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+/* Input styling */
+
+#todoInput {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    outline: none;
+    font-size: 16px;
+}
+
+
+/* Add Button styling */
+
+#todoBtn {
+    margin-top: 12px;
+    padding: 10px 25px;
+    background: #2563eb;
+    border: none;
+    color: rgb(242, 235, 235);
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#todoBtn:hover {
+    background: #1d4ed8;
+}
+
+
+/* Todo list style */
+
+#todoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+/* EACH ITEM (text + delete button spacing) */
+
+#todoList li {
+    background: #45505f;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    /* distance between text & button */
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* Delete Button Styling */
+
+.delete-btn {
+    background: rgb(85, 155, 224);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
